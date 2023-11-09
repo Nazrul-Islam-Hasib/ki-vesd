@@ -4,7 +4,7 @@ This project shows a employee management dashboard with in tabular format with s
 
 ## Live demo
 
-Go to this link to view live demo : [https://drive.google.com/file/d/1Jgw-r0cveMuxBgefX2Zg2iLtlDJkHaHw/view?usp=sharing](Link)
+Go to this link to view live demo : [link](https://drive.google.com/file/d/1Jgw-r0cveMuxBgefX2Zg2iLtlDJkHaHw/view?usp=drive_link)
 
 ## Technology Used
 
