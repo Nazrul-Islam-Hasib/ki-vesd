@@ -1,9 +1,9 @@
 <template>
-    <!-- <LoginForm v-if="!isAuthenticated"></LoginForm> -->
+    <LoginForm v-if="!isAuthenticated"></LoginForm>
    
     
     <!-- Dashboard table -->
-    <v-card>
+    <v-card v-else>
         <!-- Search -->
         <v-card-title>
             <v-row>
