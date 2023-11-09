@@ -19,6 +19,12 @@ This project shows a employee management dashboard with in tabular format with s
 
 - **Employee Lists:** Shows the list of all employees in a tabular format.
 
+- **Search:** Search employee based on name, country, region, address, phone, birthday, experience score.
+
+- **Sorting:** Sort employee on every filed in asc or dsc order.
+
+- **Salary:** Monthly salary is calculated based on the Annual salary for every employee.
+
 - **Individual details:** Details data of a employess in a card.
 
 - **Responsive Design:** Accessibility on various devices.
@@ -61,4 +67,21 @@ Follow these concise steps to set up and run the client-side application locally
 
    
    npm run test:unit
-   
+
+
+# Hello world Component
+
+The `Hello world` layout component is the main component which holds the `Dashboard` and `LoginForm` component
+
+
+
+# Dashboard Component
+
+The `Dashboard` component is responsible for displaying employee statistics based on the user's authentication status. It fetches data from the `data.json` and renders a table to display the list of employees when the user is authenticated. When we click details button it shows specific details about the employee in a modal card.
+If the user is not authenticated, it renders a `LoginForm` component.
+
+
+# LoginForm Component
+
+The `LoginForm` component is responsible for displaying employee's authentication status. It uses `Login` component with the help of AuthO to authenticate user.
+
